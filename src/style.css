@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --orange:#ff7800;
+    --darkBlue:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--darkBlue);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background:#eee;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color:var(--darkBlue);
+}
+
+.heading span{
+    background: rgb(244,203,92);
+    color:#fff;
+    display: inline-block;
+    padding:.5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--darkBlue);
+    color:var(--darkBlue);
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover{
+    background: rgb(244,203,92);
+    color:#fff;
+}
+
+.header{
+    position: sticky;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--darkBlue);
+    margin-left:-100px;
+    position: relative;
+}
+
+.header .logo i{
+    color:rgb(244,203,92);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--darkBlue);
+}
+
+.header .navbar a:hover,
+.header .navbar a.active{
+    color:rgb(244,203,92);
+}
+
+.header .navbar a.active::after,
+.header .navbar a:hover::after{
+    content:"";
+    width:2%;
+    height:2px;
+    background: var(--darkBlue);
+    position: absolute;
+    bottom: 30px;
+    left:725px;
+}
+
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--darkBlue);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons div:hover{
+    background: rgb(244,203,92);
+    color:#fff;
+}
+
+#menu-btn{
+    display: none;
+}
+
+.header .search-form{
+    position: absolute;
+    top:110%; right:-110%;
+    width: 50rem;
+    height:5rem;
+    background: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.header .search-form.active{
+    right:2rem;
+    transition: .4s linear;
+}
+
+.header .search-form label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color:var(--darkBlue);
+    cursor: pointer;
+}
+
+.header .search-form label:hover{
+    color:rgb(244,203,92);
+}
+
+#searchbar {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    color: black;
+    height: 30px;
+    width: 30%;
+    margin-right:100px;
+    border:var(--darkBlue);
+    box-shadow: rgb(244,203,92);
+    font-size: 15px;
+    padding: 15px 20px;
+}
+
+/* Home Page */
+#hero{
+    background-image:url("assets/happynewyear2023.webp");
+    height:100vh;
+    width:90%;
+    margin-left:85px;
+    margin-up: 50px;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#news{
+    color: white;
+    background-image:url("assets/confetti1.jpg");
+    height:60vh;
+    width:90%;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: rgb(241,242,248);
+    background-size: cover;
+    background-position: top 20% right 50%;
+    margin-left:85px;
+    margin-up: 50px;
+}
+
+#news_header{
+    font-style: oblique;
+    text-outline: rgb(94,99,122);
+    font-size: 80px;
+    color: black;
+    font-style: oblique;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#news_details{
+    font-size: 40px;
+    color: black;
+    font-family: Calibri;
+    font-style: oblique;
+    text-align: justify-all;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#news_marks{
+    font-size: 24px;
+    color: red;
+    font-family: Calibri;
+    font-style: oblique;
+    text-align: justify-all;
+    text-align: center;
+    position: relative;
+    top: 115px;
+}
+
+#features{
+    background-color:rgb(32,37,61);
+    height:50vh;
+    width:90%;
+    margin-left:85px;
+    margin-up: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2px;
+    flex-wrap: wrap;
+}
+
+#features .fe-box{
+    background-color: rgb(241,242,248);
+    width:180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0
+}
+
+#features .fe-box:hover{
+    box-shadow: 10px 10px 54px rgb(253,253,253);
+}
+
+#features .fe-box img{
+    width:100%;
+    margin-bottom: 10px;
+}
+
+
+#features .fe-box h5{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height:1;
+    border-radius:4px;
+    color: #088178;
+    background-color: #d1e8f2;
+    font-weight: bold;
+}
+
+#features .fe-box:nth-child(2) h5{
+    background-color: #f6dbf6;
+    font-weight: bold;
+}
+
+#features .fe-box:nth-child(3) h5{
+    background-color: #cdebbc;
+    font-weight: bold;
+}
+
+#features .fe-box:nth-child(4) h5{
+    background-color: #cdd4f8;
+    font-weight: bold;
+}
+
+#features .fe-box:nth-child(5) h5{
+    background-color: #fff2e5;
+    font-weight: bold;
+}
+
+#newsletter{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(244,203,92);
+    height:20vh;
+    margin-left:85px;
+    margin-up: 50px;
+    width:90%;
+    background-position: top 25% right 0;
+}
+
+#newsletter h4{
+    font-size:22px;
+    font-weight:700;
+    color:black;
+    margin-left: 65px;
+}
+
+#newsletter p{
+    font-size:14px;
+    font-weight:600;
+    color:#fff;
+}
+
+#newsletter span{
+    color:red;
+}
+
+#newsletter .form{
+    display: flex;
+    width:40%;
+}
+
+#newsletter input{
+    height:4rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width:100%;
+    border:1px solid transparent;
+    border-radius: 8px;
+    outline:none;
+}
+
+#newsletter button{
+    background-color:var(--darkBlue);
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 8px;
+    width:120px;
+}
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:20px;
+}
+
+footer h4{
+    font-size:14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size:13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color:#222;
+    margin-bottom:10px;
+}
+
+footer .follow{
+    margin-top:20px;
+}
+
+footer .follow i{
+    color:#465b52;
+    padding-right:4px;
+    cursor:pointer;
+}
+
+footer .install .row img{
+    border:1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color:rgb(244,203,92);
+}
+
+footer .copyright{
+    width:100%;
+    text-align: center;
+}
+
+#side-bar-cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    padding-top: 50px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transition: right 0.3s;
+}
+
+#side-bar-cart.speed-in{
+    right:0;
+}
+
+#catalog .catalog-container{
+    background-color: rgb(241,242,248);
+    width:180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid #cce7d0;
+    border-radius:4px;
+    margin:15px 0;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2px;
+    flex-wrap: wrap;
+}
+
+#catalog h4{
+    color:black;
+}

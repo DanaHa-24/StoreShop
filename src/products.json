@@ -1,0 +1,176 @@
+[{
+  "id": 0,
+  "img": "assets/Avocado.webp",
+  "description": "Avocado",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 8.9
+}, {
+  "id": 0,
+  "img": "assets/Banana.webp",
+  "description": "Banana",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 14.5
+}, {
+  "id": 0,
+  "img": "assets/Cheese9%.webp",
+  "description": "Cheese 9%",
+  "category": "Milk Products",
+  "quantity": 1,
+  "price": 17.8
+}, {
+  "id": 0,
+  "img": "assets/Cheese28%.webp",
+  "description": "Cheese 28%",
+  "category": "Milk Products",
+  "quantity": 1,
+  "price": 19.8
+}, {
+  "id": 0,
+  "img": "assets/Coriander.webp",
+  "description": "Coriander",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 3.4
+}, {
+  "id": 0,
+  "img": "assets/Cucumber.webp",
+  "description": "Cucumber",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 4.2
+}, {
+  "id": 0,
+  "img": "assets/Garlic.webp",
+  "description": "Garlic",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 5.4
+}, {
+  "id": 0,
+  "img": "assets/GreenApple.webp",
+  "description": "Green Apple",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 9.6
+}, {
+  "id": 0,
+  "img": "assets/GreenPepper.webp",
+  "description": "Green Pepper",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 10.6
+}, {
+  "id": 0,
+  "img": "assets/Milk3%.webp",
+  "description": "Milk 3%",
+  "category": "Milk Products",
+  "quantity": 1,
+  "price": 6.9
+}, {
+  "id": 0,
+  "img": "assets/Mint.webp",
+  "description": "Mint",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 3.9
+}, {
+  "id": 0,
+  "img": "assets/Orange.webp",
+  "description": "Orange",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 11.7
+}, {
+  "id": 0,
+  "img": "assets/OrangePepper.webp",
+  "description": "Orange Pepper",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 10.6
+}, {
+  "id": 0,
+  "img": "assets/Parsley.webp",
+  "description": "Parsley",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 3.2
+}, {
+  "id": 0,
+  "img": "assets/Pear.webp",
+  "description": "Pear",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 6.1
+}, {
+  "id": 0,
+  "img": "assets/RedGrapefruit.webp",
+  "description": "Red Grapefruit",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 11.8
+}, {
+  "id": 0,
+  "img": "assets/RedOnion.webp",
+  "description": "Red Onion",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 4.9
+}, {
+  "id": 0,
+  "img": "assets/RedPepper.webp",
+  "description": "Red Pepper",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 4.9
+}, {
+  "id": 0,
+  "img": "assets/SoyDrink.webp",
+  "description": "Soy Drink",
+  "category": "Milk Products",
+  "quantity": 1,
+  "price": 6.9
+}, {
+  "id": 0,
+  "img": "assets/Strawberry.webp",
+  "description": "Strawberry",
+  "category": "Fruits",
+  "quantity": 1,
+  "price": 10.2
+}, {
+  "id": 0,
+  "img": "assets/SweetPotato.webp",
+  "description": "Sweet Potato",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 9.4
+}, {
+  "id": 0,
+  "img": "assets/Tomato.webp",
+  "description": "Tomato",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 5.1
+}, {
+  "id": 0,
+  "img": "assets/WhiteOnion.webp",
+  "description": "White Onion",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 1.9
+}, {
+  "id": 0,
+  "img": "assets/WhitePotato.webp",
+  "description": "White Potato",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 10.5
+}, {
+  "id": 0,
+  "img": "assets/YellowPepper.webp",
+  "description": "YellowPepper",
+  "category": "Vegetables",
+  "quantity": 1,
+  "price": 9.4
+}]
